@@ -974,11 +974,11 @@ body #book-index #indice .col-main {
     display: flex;
     flex: unset;
     float: left;
-    height: 52px;
+    height: 44px;
     justify-content: center;
     left: 24px;
     position: absolute;
-    width: 52px;
+    width: 44px;
     z-index: 1;
 }
 
@@ -991,6 +991,12 @@ body #book-index #indice .col-main {
     position: absolute;
     width: calc(100% + 24px);
     z-index: 0;
+}
+
+#layout-container .section-title-4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Conv_Montserrat-Regular';
 }
 
    /************************
