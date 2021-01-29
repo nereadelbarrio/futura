@@ -961,6 +961,34 @@ body #book-index #indice .col-main {
     font-family: 'Conv_Montserrat-Regular';
 }
 
+#layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-number {
+    align-items: center;
+    background-color: #00548f;
+    border-radius: 100%;
+    bottom: -28px;
+    color: #ffffff;
+    display: flex;
+    flex: unset;
+    float: left;
+    height: 52px;
+    justify-content: center;
+    left: 24px;
+    position: absolute;
+    width: 52px;
+    z-index: 1;
+}
+
+#layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item:after {
+    background-color: transparent;
+    bottom: -8px;
+    height: 8px;
+    content: '';
+    left: 44px;
+    position: absolute;
+    width: calc(100% + 24px);
+    z-index: 0;
+}
+
    /************************
    * CSS AÑADIDO POR HTML *
    ************************/
