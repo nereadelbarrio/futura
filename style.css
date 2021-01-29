@@ -1000,6 +1000,22 @@ body #book-index #indice .col-main {
     font-family: 'Conv_Montserrat-Regular';
 }
 
+/*menu lateral*/
+body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled).active a,
+body #book-index #indice .units ul#list-units li:not(.disabled).active a {
+    background: #de0053;
+}
+
+body #book-index #indice .col-main {
+    background-image: linear-gradient(to right, #de0053, #f62543);
+    opacity: 1;
+}
+
+.libro-left #btn-book-index {
+    background-position: -3px -609px;
+    background-color: #de0053;
+}
+
    /************************
    * CSS AÑADIDO POR HTML *
    ************************/
