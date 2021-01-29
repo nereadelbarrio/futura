@@ -928,6 +928,39 @@ body #book-index #indice .col-main {
     line-height: 1.2em;
 }
 
+/*contenedores unidad*/
+#layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title{
+    align-items: center;
+    background-color: #00548F;
+    max-height: 60px;
+    padding: 15px 0;
+    position: relative;
+    }
+
+    #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title:before {
+    content: '\f005';
+    height: 24px;
+    position: absolute;
+    right: 13px;
+    top: calc(100% - 6px);
+    width: 27px;
+    z-index: 2;
+    font-family: FontAwesome;
+    font-size: 3.8rem;
+    color: #DE0053;
+}
+
+#layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title h3 {
+    color: #ffffff;
+    margin: 0 15px;
+    /* padding-top: 20px; */
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 1.6rem;
+    font-family: 'Conv_Montserrat-Regular';
+}
+
    /************************
    * CSS AÑADIDO POR HTML *
    ************************/
