@@ -924,8 +924,9 @@ body #book-index #indice .col-main {
 }
 
 #layout-container #main-screen #course-header .course-title span {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     line-height: 1.2em;
+    font-family: 'Conv_Montserrat-Regular';
 }
 
 /*contenedores unidad*/
