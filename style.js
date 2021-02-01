@@ -105,12 +105,12 @@ const ckeStyles = [
   { name: 'Título 4', element: 'h2', attributes: { 'class': 'bck-title4'} },
   { name: 'Título 5', element: 'h2', attributes: { 'class': 'bck-title5'} },
   { name: 'Título 6', element: 'h2', attributes: { 'class': 'bck-title6'} },
+  { name: 'Título 7', element: 'h2', attributes: { 'class': 'bck-title7'} },
 
   {name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-1'}},
   {name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-2'}},
 
-  {name: 'Énfasis', element: 'span', attributes: {'class': 'bck-enfasis'}},
-  {name: 'Énfasis 2', element: 'span', attributes: {'class': 'bck-enfasis2'}}
+  {name: 'Énfasis', element: 'span', attributes: {'class': 'bck-enfasis'}}
   // Añadir elementos CKEditor aquí.
 ];
 /* harmony default export */ __webpack_exports__["default"] = (ckeStyles);
