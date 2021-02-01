@@ -109,7 +109,8 @@ const ckeStyles = [
   {name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-1'}},
   {name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-2'}},
 
-  {name: 'Énfasis', element: 'span', attributes: {'class': 'bck-enfasis'}}
+  {name: 'Énfasis', element: 'span', attributes: {'class': 'bck-enfasis'}},
+  {name: 'Énfasis 2', element: 'span', attributes: {'class': 'bck-enfasis2'}}
   // Añadir elementos CKEditor aquí.
 ];
 /* harmony default export */ __webpack_exports__["default"] = (ckeStyles);
