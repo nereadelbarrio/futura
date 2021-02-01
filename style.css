@@ -1217,6 +1217,12 @@ body #book-index #indice .col-main {
     font-size: 2.5rem;
 }
 
+/*titulo 7*/
+.bck-title7 {
+	color: #1E81CB;
+    font-size: 1.8rem;
+}
+
 /*parrafos*/
 body {
     color: #005D98;
