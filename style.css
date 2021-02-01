@@ -1060,6 +1060,20 @@ body #book-index #indice .col-main {
     background-color: #de0053;
 }
 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item, 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item, #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item {
+    align-items: center;
+    background-color: #ffffff;
+    cursor: pointer;
+    height: 63px;
+    margin-bottom: 20px;
+    padding-left: 55px;
+    transition-duration: .1s;
+    transition-property: background-color, color;
+    transition-timing-function: ease-in-out;
+    user-select: none;
+}
+
 
 #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:hover, 
 #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item:hover, #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item:hover {
