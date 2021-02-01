@@ -1387,6 +1387,22 @@ body {
     top: -2px;
 }
 
+/*CAJAS*/
+/*CAJA 1*/
+.bck-box.box-1{
+    border: 3px solid #003da6;
+    background: #ffffff;
+    padding: 20px;
+    position: relative;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.bck-box.box-1 .bck-title{
+    color: #003da6;
+    font-size: 3.5rem;
+}
+
    /************************
    * CSS AÑADIDO POR HTML *
    ************************/
