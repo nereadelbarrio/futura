@@ -1130,6 +1130,28 @@ body #book-index #indice .col-main {
     font-weight: 400;
 }
 
+#layout-container div[id*="section-screen"] .section .section-data .desc-wrapper .section-number {
+    align-items: center;
+    background-color: #00548f;
+    border-radius: 100%;
+    bottom: calc(90% - 100%);
+    color: #ffffff;
+    display: flex;
+    flex: unset;
+    float: left;
+    height: 95px;
+    justify-content: center;
+    left: 24px;
+    position: absolute;
+    width: 95px;
+    z-index: 1;
+}
+
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content{
+	background-color: #00548f;
+}
+
+
    /************************
    * CSS AÑADIDO POR HTML *
    ************************/
