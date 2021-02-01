@@ -1393,20 +1393,17 @@ body {
     border: 3px solid #003da6;
     margin-top: 40px;
     border-radius: 20px;
+    padding: 10px 15px;
 }
 
 .bck-box.box-1 .bck-title{
     color: #003da6;
-    font-size: 3.5rem;
 }
 
 
 .bck-box.box-1 .bck-content{
     background: #ffffff;
-    padding: 10px 15px;
     position: relative;
-    margin-top: 20px;
-    border-radius: 20px;
 }
 
 
