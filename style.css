@@ -1406,6 +1406,41 @@ body {
     position: relative;
 }
 
+/*CAJA 2*/
+.bck-box.box-2{
+    border: 3px solid #ed165b;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.bck-box.box-2 .bck-title{
+    color: #003da6;
+}
+
+
+.bck-box.box-2 .bck-content{
+    background: #ffffff;
+    position: relative;
+}
+
+/*CAJA 3*/
+.bck-box.box-3{
+    border: 3px solid #fec60e;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.bck-box.box-3 .bck-title{
+    color: #003da6;
+}
+
+
+.bck-box.box-3 .bck-content{
+    background: #ffffff;
+    position: relative;
+}
 
    /************************
    * CSS AÑADIDO POR HTML *
