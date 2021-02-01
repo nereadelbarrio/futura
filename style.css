@@ -1151,6 +1151,11 @@ body #book-index #indice .col-main {
 	background-color: #00548f;
 }
 
+#layout-container div[id*="section-screen"] .section .section-content .tabs .tab:hover {
+    border-right: 15px solid #FFC200;
+    transition: border-right-color .5s ease-in-out;
+}
+
 
    /************************
    * CSS AÑADIDO POR HTML *
