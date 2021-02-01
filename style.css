@@ -1039,6 +1039,62 @@ body #book-index #indice .col-main {
     background-color: #de0053;
 }
 
+/*contenido unidad*/
+#layout-container div[id*="section-screen"] .section .section-content .tabs {
+    align-items: stretch;
+    background-color: #00548f;
+    color: #ffffff;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    user-select: none;
+}
+
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:after, 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item:after, #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item:after {
+    background-image: linear-gradient(90deg, #de0053 25%, #fa455f);
+}
+
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item .content-img, 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img, #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item .content-img {
+    background-color: #de0053;
+}
+
+
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:hover, 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item:hover, #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item:hover {
+    background-color: #f6e7e9;
+    color: #a2041b;
+}
+
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:hover, 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item:hover, #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item:hover {
+    background-color: #f6e7e9;
+    color: #00548f;
+    font-size: 1.7rem;
+}
+
+#layout-container .section-title-1, #layout-container .section-title-2, #layout-container .section-title-3, 
+#layout-container .section-title-4, #layout-container span {
+    font-weight: 300;
+    color: #00548f;
+}
+
+#layout-container div[id*="section-screen"] .section .section-data .desc-wrapper .section-number span {
+    font-size: 47px;
+    font-weight: 300;
+    color: #fff;
+}
+
+#layout-container div[id*="section-screen"] .section .section-content .tabs .tab [class*="section-title-"] {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 15px;
+    transition: color .2s ease-in-out;
+    text-transform: uppercase;
+    color: #fff;
+}
+
    /************************
    * CSS AÑADIDO POR HTML *
    ************************/
