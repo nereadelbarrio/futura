@@ -1156,6 +1156,9 @@ body #book-index #indice .col-main {
     transition: border-right-color .5s ease-in-out;
 }
 
+#layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"]{
+	color: #FFC200;
+}
 
    /************************
    * CSS AÑADIDO POR HTML *
