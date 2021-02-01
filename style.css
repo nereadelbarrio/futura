@@ -1008,6 +1008,21 @@ body {
     font-family: 'Conv_Montserrat-Regular';
 }
 
+#layout-container #main-screen #course-content .slider-wrapper .slider-navcontrol span i{
+	align-items: center;
+    color: #de0053;
+    cursor: pointer;
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    position: relative;
+}
+
+/*material extra*/
+#layout-container #main-screen #course-header .course-extra ul li{
+	background-color: #00548f;
+}
+
 /*menu lateral*/
 body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled).active a,
 body #book-index #indice .units ul#list-units li:not(.disabled).active a {
