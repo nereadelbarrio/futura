@@ -1160,6 +1160,18 @@ body #book-index #indice .col-main {
 	color: #FFC200;
 }
 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .circle-outer, 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .resources-content .content-item .circle-outer{
+	background-color: #de0053;
+	background-image: none;
+}
+
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img, 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .resources-content .content-item .content-img{
+	background-color: #de0053;
+	background-image: none;
+}
+
    /************************
    * CSS AÑADIDO POR HTML *
    ************************/
