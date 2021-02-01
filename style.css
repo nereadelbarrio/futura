@@ -1223,6 +1223,13 @@ body #book-index #indice .col-main {
     font-size: 1.8rem;
 }
 
+/*titulo 8*/
+.bck-title8 {
+    color: #005D98;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
 /*parrafos*/
 body {
     color: #005D98;
