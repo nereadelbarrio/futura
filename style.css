@@ -1221,6 +1221,7 @@ body #book-index #indice .col-main {
 .bck-title7 {
 	color: #1E81CB;
     font-size: 1.8rem;
+	font-weight: 600;
 }
 
 /*titulo 8*/
@@ -1235,11 +1236,6 @@ body {
     color: #005D98;
 }
 
-/*enfasis*/
-.bck-enfasis2{
-	color: #1E81CB;
-    font-size: 1.8rem;
-}
 
    /************************
    * CSS AÑADIDO POR HTML *
