@@ -1217,6 +1217,17 @@ body #book-index #indice .col-main {
     font-size: 2.5rem;
 }
 
+/*parrafos*/
+body {
+    color: #005D98;
+}
+
+/*enfasis*/
+.bck-enfasis2{
+	color: #1E81CB;
+    font-size: 1.3rem;
+}
+
    /************************
    * CSS AÑADIDO POR HTML *
    ************************/
