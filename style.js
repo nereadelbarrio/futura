@@ -99,8 +99,16 @@ __webpack_require__.r(__webpack_exports__);
 *   Array con la definición de los estilos para el editor de CKEditor
 */
 const ckeStyles = [
+  { name: 'Título 1', element: 'h2', attributes: { 'class': 'bck-title1'} },
+  { name: 'Título 2', element: 'h2', attributes: { 'class': 'bck-title2'} },
+  { name: 'Título 3', element: 'h2', attributes: { 'class': 'bck-title3'} },
+  { name: 'Título 4', element: 'h2', attributes: { 'class': 'bck-title4'} },
+  { name: 'Título 5', element: 'h2', attributes: { 'class': 'bck-title5'} },
+  { name: 'Título 6', element: 'h2', attributes: { 'class': 'bck-title6'} },
+
   {name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-1'}},
   {name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-2'}},
+
   {name: 'Énfasis', element: 'span', attributes: {'class': 'bck-enfasis'}}
   // Añadir elementos CKEditor aquí.
 ];
