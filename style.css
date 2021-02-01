@@ -1088,23 +1088,6 @@ body #book-index #indice .col-main {
     font-size: 1.7rem;
 }
 
-#layout-container .section-title-1, 
-#layout-container .section-title-2, 
-#layout-container .section-title-3, 
-#layout-container .section-title-4{
-    color: #ffffff;
-}
-
-#layout-container span {
-    font-weight: 300;
-    color: #00548f;
-}
-
-#layout-container span {
-    font-weight: 300;
-    color: #00548f;
-}
-
 #layout-container div[id*="section-screen"] .section .section-data .desc-wrapper .section-number span {
     font-size: 47px;
     font-weight: 300;
@@ -1118,6 +1101,33 @@ body #book-index #indice .col-main {
     transition: color .2s ease-in-out;
     text-transform: uppercase;
     color: #fff;
+}
+
+#layout-container div[id*="section-screen"] .section .section-data .section-title {
+    align-items: center;
+    background-color: #de0053;
+    background-image: none;
+    padding: 20px 10px;
+    position: relative;
+}
+
+#layout-container div[id*="section-screen"] .section .section-data .section-title:before{
+	background-image: none;
+    border-radius: 0 0 0 100%;
+    content: '';
+    height: 24px;
+    position: absolute;
+    right: -12px;
+    top: 25%;
+    transform: rotate(45deg);
+    width: 24px;
+    z-index: 2;
+    background-color: #de0053;
+}
+
+#layout-container div[id*="section-screen"] .section .section-data .desc-wrapper .section-desc [class*="section-title-"]{
+	font-size: 2rem;
+    font-weight: 400;
 }
 
    /************************
