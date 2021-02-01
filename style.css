@@ -1195,6 +1195,27 @@ body #book-index #indice .col-main {
     font-size: 2.5rem;
 }
 
+/*titulo 4*/
+.bck-title4 {
+    color: #005D98;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+/*titulo 5*/
+.bck-title5 {
+    color: rgb(254,197,10);
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+/*titulo 6*/
+.bck-title6 {
+    color: #ED145A;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
    /************************
    * CSS AÑADIDO POR HTML *
    ************************/
