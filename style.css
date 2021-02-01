@@ -1238,26 +1238,26 @@ body {
 
 /*listas*/
 /*lista des 1*/
-#actividad .content .texto_curso .bck-ul1 li:before,
-#actividad .content .workspace ul li .bck-ul1 li:before ,
-#actividad .popover-background.shown .popover-content .bck-ul1 li:before{
+#actividad .content .texto_curso .bck-ul-1 li:before,
+#actividad .content .workspace ul li .bck-ul-1 li:before ,
+#actividad .popover-background.shown .popover-content .bck-ul-1 li:before{
     width: 6px;
     height: 6px;
     background-color: #005d98;
 }
 
 /*LISTA DESORDENADA 2*/
-#actividad .content .texto_curso .bck-ul2 li:before,
-#actividad .content .workspace ul li .bck-ul2 li:before ,
-#actividad .popover-background.shown .popover-content .bck-ul2 li:before{
+#actividad .content .texto_curso .bck-ul-2 li:before,
+#actividad .content .workspace ul li .bck-ul-2 li:before ,
+#actividad .popover-background.shown .popover-content .bck-ul-2 li:before{
     width: 6px;
     height: 6px;
     background-color: #ed165b;
 }
 
 /*LISTA DESORDENADA 3*/
-#actividad .content .texto_curso .bck-ul3 li:before,
-#actividad .content .workspace ul li .bck-ul3 li:before ,
+#actividad .content .texto_curso .bck-ul-3 li:before,
+#actividad .content .workspace ul li .bck-ul-3 li:before ,
 #actividad .popover-background.shown .popover-content .bck-ul3 li:before{
     width: 6px;
     height: 6px;
@@ -1266,8 +1266,8 @@ body {
 
 
 /*lista ord 1*/
-.content .bck-ol1 li:before,
-.cke_contents .bck-ol1 li:before {
+.content .bck-ol-1 li:before,
+.cke_contents .bck-ol-1 li:before {
 	content: counter(bck-li-counter);
     line-height: 2.7rem;
     top: -2px;
