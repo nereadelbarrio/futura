@@ -106,6 +106,7 @@ const ckeStyles = [
   { name: 'Título 5', element: 'h2', attributes: { 'class': 'bck-title5'} },
   { name: 'Título 6', element: 'h2', attributes: { 'class': 'bck-title6'} },
   { name: 'Título 7', element: 'h2', attributes: { 'class': 'bck-title7'} },
+  { name: 'Título 8', element: 'h2', attributes: { 'class': 'bck-title8'} },
 
   {name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-1'}},
   {name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-2'}},
