@@ -1493,6 +1493,10 @@ body {
     background-color: #eee;
 }
 
+/*ACTIVIDADES*/
+#actividad .pregunta .texto_curso {
+    font-size: 1.8rem;
+}
    /************************
    * CSS AÑADIDO POR HTML *
    ************************/
