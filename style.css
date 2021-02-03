@@ -1182,17 +1182,17 @@ body #book-index #indice .col-main {
 
 /*LOGO*/
 .libro-left ul li .title:before {
-            content: "";
-            background-size: contain;
-            top: 6px;
-            background-image: url(images/logoOK.png) !important;
-            position: fixed;
-            width: 126px;
-            height: 62px;
-            background-repeat: no-repeat;
-            left: 50%;
-            margin-left: -40px;
-            }
+	content: "";
+    background-size: contain;
+    top: 6px;
+    background-image: url(images/logoblnco.png) !important;
+    position: fixed;
+    width: 67px;
+    height: 62px;
+    background-repeat: no-repeat;
+    left: 50%;
+    margin-left: -40px;
+}
 
 /*CK-EDITOR*/
 /*titulos tema*/
