@@ -1173,6 +1173,27 @@ body #book-index #indice .col-main {
 	background-image: none;
 }
 
+/*NAVBAR*/
+#actividad .content .header .title img {
+    max-height: 30px;
+    margin-right: 15px;
+    display: none;
+}
+
+/*LOGO*/
+.libro-left ul li .title:before {
+            content: "";
+            background-size: contain;
+            top: 6px;
+            background-image: url(images/logoOK.png) !important;
+            position: fixed;
+            width: 126px;
+            height: 62px;
+            background-repeat: no-repeat;
+            left: 50%;
+            margin-left: -40px;
+            }
+
 /*CK-EDITOR*/
 /*titulos tema*/
 /*titulo 1*/
