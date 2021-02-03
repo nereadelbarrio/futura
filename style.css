@@ -1228,6 +1228,10 @@ body #book-index #indice .col-main {
     cursor: pointer;
 }
 
+.slider-control {
+    background-color: #005D98;
+}
+
 /*LOGO*/
 .libro-left ul li .title:before {
 	content: "";
