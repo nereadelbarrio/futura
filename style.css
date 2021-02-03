@@ -1194,6 +1194,40 @@ body #book-index #indice .col-main {
 	display: none;
 }
 
+.navbar-bottom {
+    background-color: #4b4b4b;
+}
+
+.slider-indicators .active {
+    width: 13px;
+    height: 13px;
+    margin: 7px;
+}
+
+.navbar-bottom .edit .slider-indicators .concat.active, 
+.navbar-bottom .slider-indicators .active {
+    background-color: #de0053;
+    color: #223c3f;
+}
+
+.slider-indicators li {
+    width: 13px;
+    height: 13px;
+    margin: 7px;
+    border: 0 solid transparent;
+    background-color: #666;
+    display: inline-block;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.slider-indicators li {
+    background-color: #fff;
+    text-indent: -99999px;
+    cursor: pointer;
+}
+
 /*LOGO*/
 .libro-left ul li .title:before {
 	content: "";
