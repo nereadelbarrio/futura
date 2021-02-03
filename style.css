@@ -934,6 +934,10 @@ body {
 }
 
 /*contenedores unidad*/
+#layout-container div[id*="section-screen"] .section .section-data .section-title h1{
+	font-size: 4rem;
+}
+
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title{
     align-items: center;
     background-color: #00548F;
