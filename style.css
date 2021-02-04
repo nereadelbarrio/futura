@@ -925,20 +925,20 @@ body #book-index #indice .col-main {
 }
 
 body {
-    font-family: 'Conv_Montserrat-Regular';
+    font-family: 'Conv_ProximaNova-Regular';
       color: #005D98;
 }
 
 /*Titulo ABP*/
 #layout-container .section-title-1 {
 	font-weight: 800;
-	font-family: 'Conv_Montserrat-Bold';
+	font-family: 'Conv_ProximaNova-Regular';
 }
 
 #layout-container #main-screen #course-header .course-title span {
     font-size: 2.2rem;
     line-height: 1.2em;
-    font-family: 'Conv_Montserrat-Regular';
+    font-family: 'Conv_ProximaNova-Regular';
 }
 
 /*contenedores unidad*/
@@ -979,7 +979,7 @@ body {
     vertical-align: middle;
     font-weight: 400;
     font-size: 1.6rem;
-    font-family: 'Conv_Montserrat-Regular';
+    font-family: 'Conv_ProximaNova-Regular';
 }
 
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-number {
@@ -1017,7 +1017,7 @@ body {
 #layout-container .section-title-4 {
     font-size: 1.2rem;
     font-weight: 500;
-    font-family: 'Conv_Montserrat-Regular';
+    font-family: 'Conv_ProximaNova-Regular';
 }
 
 #layout-container #main-screen #course-content .slider-wrapper .slider-navcontrol span i{
