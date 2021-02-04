@@ -1542,6 +1542,16 @@ body {
     background-color: #eee;
 }
 
+/*TABLA*/
+td, th {
+    padding: 5px;
+    border: 2PX SOLID #005d98;
+}
+
+tr {
+    border: 2PX SOLID #005d98;
+}
+
 /*ACTIVIDADES*/
 #actividad .pregunta .texto_curso {
     font-size: 1.8rem;
