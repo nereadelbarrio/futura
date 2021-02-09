@@ -1070,17 +1070,19 @@ body {
 /*menu lateral*/
 body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled).active a,
 body #book-index #indice .units ul#list-units li:not(.disabled).active a {
-    background: #de0053;
+    background: #0091C5;
 }
 
 body #book-index #indice .col-main {
-    background-image: linear-gradient(to right, #de0053, #f62543);
+    background-image: none;
     opacity: 1;
+    background-color: #0091C5;
 }
 
 .libro-left #btn-book-index {
     background-position: -3px -609px;
 }
+
 
 /*contenido unidad*/
 #layout-container div[id*="section-screen"] .section .section-content .tabs {
