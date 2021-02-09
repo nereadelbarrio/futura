@@ -1083,6 +1083,11 @@ body #book-index #indice .col-main {
     background-position: -3px -609px;
 }
 
+body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover,
+body #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover {
+    background: #0091c5;
+}
+
 
 /*contenido unidad*/
 #layout-container div[id*="section-screen"] .section .section-content .tabs {
