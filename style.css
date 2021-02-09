@@ -1095,7 +1095,7 @@ body #book-index #indice .col-main {
 
 #layout-container div[id*="section-screen"] .section .section-content .tabs .tab {
     align-items: center;
-    background-color: #005086;
+    background-color: #fff;
     cursor: pointer;
     justify-content: center;
     transition: background-color .2s ease-in-out;
