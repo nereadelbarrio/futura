@@ -1161,7 +1161,7 @@ body #book-index #indice .col-main {
     margin: 0 15px;
     transition: color .2s ease-in-out;
     text-transform: uppercase;
-    color: #95d1fa;
+    color: #7bc5e1;
 }
 
 #layout-container div[id*="section-screen"] .section .section-data .section-title {
@@ -1214,10 +1214,6 @@ body #book-index #indice .col-main {
 
 #layout-container div[id*="section-screen"] .section .section-content .tabs-content{
 	background-color: #cdeaf4;
-}
-
-#layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"]{
-	color: #FFC200;
 }
 
 #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .circle-outer, 
