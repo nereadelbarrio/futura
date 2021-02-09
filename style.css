@@ -1,3 +1,4 @@
+/*ESTILO FUTURA*/
 /*
 *   Imports de todos los archivos de estilos
 */
@@ -882,8 +883,7 @@ body #book-index #indice .col-main {
   /************************
    * CSS AÑADIDO POR HTML *
    ************************/
-
-    /*fonts*/
+   /*fonts*/
 @font-face {
 	font-family: 'Conv_Montserrat-Medium';
 	src: url('fonts/Montserrat-Medium.eot');
@@ -1022,7 +1022,7 @@ body {
 }
 
 #layout-container .section-title-4 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
     font-family: 'Conv_ProximaNova-Regular';
 }
@@ -1093,6 +1093,14 @@ body #book-index #indice .col-main {
     user-select: none;
 }
 
+#layout-container div[id*="section-screen"] .section .section-content .tabs .tab {
+    align-items: center;
+    background-color: #005086;
+    cursor: pointer;
+    justify-content: center;
+    transition: background-color .2s ease-in-out;
+}
+
 #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:after, 
 #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item:after, #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .content-item:after {
     background-image: linear-gradient(90deg, #de0053 25%, #fa455f);
@@ -1153,12 +1161,12 @@ body #book-index #indice .col-main {
     margin: 0 15px;
     transition: color .2s ease-in-out;
     text-transform: uppercase;
-    color: #fff;
+    color: #95d1fa;
 }
 
 #layout-container div[id*="section-screen"] .section .section-data .section-title {
     align-items: center;
-    background-color: #de0053;
+    background-color: #0091C5;
     background-image: none;
     padding: 20px 10px;
     position: relative;
@@ -1175,17 +1183,21 @@ body #book-index #indice .col-main {
     transform: rotate(45deg);
     width: 24px;
     z-index: 2;
-    background-color: #de0053;
+    background-color: #0091C5;
 }
 
 #layout-container div[id*="section-screen"] .section .section-data .desc-wrapper .section-desc [class*="section-title-"]{
-	font-size: 2rem;
+	font-size: 2.5rem;
     font-weight: 400;
+}
+
+#layout-container div[id*="section-screen"] .section .section-data .desc-wrapper .section-desc {
+    background-color: #0091c57d;
 }
 
 #layout-container div[id*="section-screen"] .section .section-data .desc-wrapper .section-number {
     align-items: center;
-    background-color: #00548f;
+    background-color: #0091c5;
     border-radius: 100%;
     bottom: calc(90% - 100%);
     color: #ffffff;
@@ -1201,12 +1213,7 @@ body #book-index #indice .col-main {
 }
 
 #layout-container div[id*="section-screen"] .section .section-content .tabs-content{
-	background-color: #00548f;
-}
-
-#layout-container div[id*="section-screen"] .section .section-content .tabs .tab:hover {
-    border-right: 15px solid #FFC200;
-    transition: border-right-color .5s ease-in-out;
+	background-color: #cdeaf4;
 }
 
 #layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"]{
