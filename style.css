@@ -1062,9 +1062,20 @@ body {
     color: #0091c5;
 }
 
+#layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"] {
+    color: #00548f;
+}
+
 /*material extra*/
 #layout-container #main-screen #course-header .course-extra ul li{
 	background-color: #ffffff;
+}
+
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator, #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .separator, #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .no-resources .separator {
+    color: #00548f;
+    border-bottom: 1px solid #00548f;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 /*menu lateral*/
@@ -1087,7 +1098,6 @@ body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled):n
 body #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover {
     background: #0091c5;
 }
-
 
 /*contenido unidad*/
 #layout-container div[id*="section-screen"] .section .section-content .tabs {
