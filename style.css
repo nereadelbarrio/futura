@@ -1059,11 +1059,12 @@ body {
 
 #layout-container #main-screen #course-header .course-extra ul li a span {
     margin: 15PX 0 8px 0;
+    color: #0091c5;
 }
 
 /*material extra*/
 #layout-container #main-screen #course-header .course-extra ul li{
-	background-color: #00548f;
+	background-color: #ffffff;
 }
 
 /*menu lateral*/
@@ -1139,7 +1140,6 @@ body #book-index #indice .col-main {
 
 #layout-container span {
     font-weight: 300;
-    color: #00548f;
 }
 
 #layout-container div[id*="section-screen"] .section .section-data .desc-wrapper .section-number span {
