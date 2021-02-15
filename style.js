@@ -118,6 +118,7 @@ const ckeStyles = [
   { name: 'Lista des 2', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
   { name: 'Lista des 3', element: 'ul', attributes: { 'class': 'bck-ul-3'} },
 
+
   { name: 'Lista 1', element: 'ol', attributes: { 'class': 'bck-ol1' } },
   { name: 'Lista 2', element: 'ol', attributes: { 'class': 'bck-ol2' } },
   { name: 'Lista 3', element: 'ol', attributes: { 'class': 'bck-ol3' } }
