@@ -1442,7 +1442,7 @@ body {
 /*lista ord 1*/
 .content .bck-ol1 li,
 .cke_contents .bck-ol1 li{
-    counter-increment: bck-li-counter;
+counter-increment: bck-li-counter;
     padding-left: 7px;
     position: relative;
     z-index: 0;
@@ -1456,9 +1456,9 @@ body {
 .content .bck-ol1 li:before,
 .cke_contents .bck-ol1 li:before {
     color: #005d98;
-    content: counter(bck-li-counter);
+content: counter(bck-li-counter);
     position: absolute;
-    margin-left: 11px;
+    margin-left: 4px;
     margin-right: 0px;
     font-size: 1.7rem;
     text-align: center;
@@ -1470,7 +1470,7 @@ body {
 /*lista ord 2*/
 .content .bck-ol2 li,
 .cke_contents .bck-ol2 li{
-    counter-increment: bck-li-counter;
+counter-increment: bck-li-counter;
     padding-left: 7px;
     position: relative;
     z-index: 0;
@@ -1484,9 +1484,9 @@ body {
 .content .bck-ol2 li:before,
 .cke_contents .bck-ol2 li:before {
 	color: #ed165b;
-    content: counter(bck-li-counter);
+content: counter(bck-li-counter);
     position: absolute;
-    margin-left: 11px;
+    margin-left: 4px;
     margin-right: 0px;
     font-size: 1.7rem;
     text-align: center;
@@ -1498,7 +1498,7 @@ body {
 /*lista ord 3*/
 .content .bck-ol3 li,
 .cke_contents .bck-ol3 li{
-    counter-increment: bck-li-counter;
+counter-increment: bck-li-counter;
     padding-left: 7px;
     position: relative;
     z-index: 0;
@@ -1512,9 +1512,9 @@ body {
 .content .bck-ol3 li:before,
 .cke_contents .bck-ol3 li:before {
 	color: #fec50a;
-    content: counter(bck-li-counter);
+content: counter(bck-li-counter);
     position: absolute;
-    margin-left: 11px;
+    margin-left: 4px;
     margin-right: 0px;
     font-size: 1.7rem;
     text-align: center;
